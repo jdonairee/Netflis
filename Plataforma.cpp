@@ -1,7 +1,7 @@
 #include "Plataforma.h"
 
 Plataforma::Plataforma(string _nombre){
-    _nombre = _nombre;
+    nombre = _nombre;
 }
 
 void Plataforma::agregarContenido(Contenido* c){
