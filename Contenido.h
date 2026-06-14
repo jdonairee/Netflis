@@ -24,6 +24,7 @@ public:
 
     string getTitulo();
     int getId();
+    string getClasificacion();
 
     virtual ~Contenido();
 };
