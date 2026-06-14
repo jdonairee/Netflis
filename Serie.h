@@ -20,6 +20,7 @@ public:
 
     void agregarTemporada(Temporada t);
     void eliminarTemporada(Temporada t);
+    vector<Temporada> verTemporada();
 
     void agregarALista();
     void quitarDeLista();
