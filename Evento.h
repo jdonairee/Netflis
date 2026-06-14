@@ -14,7 +14,7 @@ private:
     int likes;
 
 public:
-    Evento(int _ID, string _titulo, string _genero, int _anio,
+    Evento(int _id, string _titulo, string _genero, int _anio,
            string _clasificacion, double _duracion,
            string _fecha, string _hora);
 
