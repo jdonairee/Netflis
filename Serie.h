@@ -2,6 +2,7 @@
 #define SERIE_H
 #include <iostream>
 #include <vector>
+#include <string>
 #include "Contenido.h"
 #include "Temporada.h"
 #include "ILikeable.h"
