@@ -1,6 +1,6 @@
 #include "Evento.h"
 
-Evento::Evento(int _id, string _titulo, string _genero, int _anio, string _clasificacion, double _duracion, string _fecha, string _hora) : Contenido(int _id, string _titulo, string _genero, int _anio, string _clasificacion, double _duracion){
+Evento::Evento(int _id, string _titulo, string _genero, int _anio, string _clasificacion, double _duracion, string _fecha, string _hora){
     id = _id; 
     titulo = _titulo;
     genero = _genero; 
@@ -26,7 +26,7 @@ void Evento::mostrarInfo(){
 }
 
 double Evento::calcularDuracion(){
-    return _duracion;
+    return duracion;
 }
 
 
