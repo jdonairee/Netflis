@@ -1,7 +1,9 @@
 #ifndef SERIE_H
 #define SERIE_H
 #include <iostream>
+#include <vector>
 #include "Contenido.h"
+#include "Temporada.h"
 #include "ILikeable.h"
 #include "IListable.h"
 using namespace std;
