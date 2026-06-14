@@ -7,3 +7,16 @@ Plataforma::Plataforma(string _nombre){
 void Plataforma::agregarContenido(Contenido* c){
     catalogo.agregarContenido(c);
 }
+
+void Plataforma::eliminarContenido(Contenido* c){
+    catalogo.eliminarContenido(c);
+}
+
+void Plataforma::mostrarCatalogo(){
+    cout << "PLATAFORMA: " << nombre << endl;
+    catalogo.mostrarCatalogo();
+}
+
+double Plataforma::calcularDuracionTotal(){
+    return catalogo.calcularDuracionTotal();
+}
