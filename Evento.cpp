@@ -1,7 +1,7 @@
 #include "Evento.h"
 
-Evento::Evento(int _ID, string _titulo, string _genero, int _anio, string _clasificacion, double _duracion, string _fecha, string _hora) : Contenido(int _ID, string _titulo, string _genero, int _anio, string _clasificacion, double _duracion){
-    ID = _ID; 
+Evento::Evento(int _id, string _titulo, string _genero, int _anio, string _clasificacion, double _duracion, string _fecha, string _hora) : Contenido(int _id, string _titulo, string _genero, int _anio, string _clasificacion, double _duracion){
+    id = _id; 
     titulo = _titulo;
     genero = _genero; 
     anio = _anio;
@@ -14,6 +14,7 @@ Evento::Evento(int _ID, string _titulo, string _genero, int _anio, string _clasi
 
 void Evento::mostrarInfo(){
     cout << "EVENTO" << endl
+         << "ID: " << id << endl
          << "Titulo: " << titulo << endl
          << "Género: " << genero << endl
          << "Año: " << anio << endl
