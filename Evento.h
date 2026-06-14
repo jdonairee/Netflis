@@ -1,6 +1,7 @@
 #ifndef EVENTO_H
 #define EVENTO_H
 #include <iostream>
+#include <string>
 #include "Contenido.h"
 #include "IListable.h"
 #include "ILikeable.h"
