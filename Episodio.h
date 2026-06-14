@@ -10,6 +10,7 @@ private:
     double duracion;
 
 public: 
+    Episodio(string _titulo, double _duracion);
     double calcularDuracion();
 };
 #endif
