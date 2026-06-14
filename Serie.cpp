@@ -23,7 +23,7 @@ void Serie::mostrarInfo() {
 double Serie::calcularDuracion() {
     double total = 0;
 
-    for (Temporada t : temporadas) {
+    for (Temporada &t : temporadas) {
         total += t.calcularDuracion();
     }
 
@@ -35,7 +35,7 @@ void Serie::agregarTemporada(Temporada t) {
 }
 
 void Serie::eliminarTemporada(Temporada t) {
-    for (int i = 0; i < temporadas.size(); i++) {
+    for (size_t i = 0; i < temporadas.size(); i++) {
         if (temporadas[i].getNumero() == t.getNumero()) {
             temporadas.erase(temporadas.begin() + i);
             break;
@@ -48,17 +48,23 @@ vector<Temporada> Serie::verTemporadas() {
 }
 
 void Serie::agregarALista() {
-    cout << titulo << " se agregó a la lista." << endl;
+    cout << titulo << " se agrego a la lista." << endl;
 }
 
 void Serie::quitarDeLista() {
-    cout << titulo << " se eliminó de la lista." << endl;
+    cout << titulo << " se elimino de la lista." << endl;
 }
 
 void Serie::darLike() {
+    likes += 1;
     cout << "Diste like a " << titulo << "." << endl;
 }
 
 void Serie::quitarLike() {
+    if (likes > 0) {
+        likes -= 1;
+    }
+
     cout << "Quitaste el like de " << titulo << "." << endl;
 }
+
