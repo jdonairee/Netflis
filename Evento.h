@@ -13,7 +13,9 @@ private:
     int likes;
 
 public:
-    Evento(string _fecha, string _hora) : Contenido(int _ID, string _titulo, string _genero, int _anio, string _clasificacion, double _duracion);
+    Evento(int _ID, string _titulo, string _genero, int _anio,
+           string _clasificacion, double _duracion,
+           string _fecha, string _hora);
 
     void mostrarInfo();
     double calcularDuracion();
