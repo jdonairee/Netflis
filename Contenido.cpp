@@ -26,5 +26,9 @@ int Contenido::getId() {
     return id;
 }
 
+string Contenido::getClasificacion() {
+    return clasificacion;
+}
+
 Contenido::~Contenido() {
 }
