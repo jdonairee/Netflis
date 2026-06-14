@@ -2,6 +2,7 @@
 #define EPISODIO_H
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 class Episodio{
