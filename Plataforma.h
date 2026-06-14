@@ -16,5 +16,8 @@ public:
     Plataforma(string _nombre);
 
     void agregarContenido(Contenido* c);
+    void eliminarContenido(Contenido* c);
+    void mostrarCatalogo();
+    double calcularDuracionTotal();
 };
 #endif
