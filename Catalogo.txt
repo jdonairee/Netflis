@@ -63,3 +63,11 @@ EVENTO|62|E3 Showcase|Videojuegos|2026|A|90|En vivo
 EVENTO|63|The Game Awards|Videojuegos|2026|B|150|En vivo
 EVENTO|64|Final NBA|Deportes|2026|A|150|En vivo
 EVENTO|65|Final Copa Libertadores|Deportes|2026|A|120|En vivo
+PELICULA|66|Harry Potter y la Piedra Filosofal|Fantasia|2001|A|152|Chris Columbus
+PELICULA|67|Harry Potter y la Camara Secreta|Fantasia|2002|A|161|Chris Columbus
+PELICULA|68|Harry Potter y el Prisionero de Azkaban|Fantasia|2004|A|142|Alfonso Cuaron
+PELICULA|69|Harry Potter y el Caliz de Fuego|Fantasia|2005|B|157|Mike Newell
+PELICULA|70|Harry Potter y la Orden del Fenix|Fantasia|2007|B|138|David Yates
+PELICULA|71|Harry Potter y el Misterio del Principe|Fantasia|2009|B|153|David Yates
+PELICULA|72|Harry Potter y las Reliquias de la Muerte Parte 1|Fantasia|2010|B|146|David Yates
+PELICULA|73|Harry Potter y las Reliquias de la Muerte Parte 2|Fantasia|2011|B|130|David Yates
