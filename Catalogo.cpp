@@ -16,8 +16,7 @@ void Catalogo::cargarArchivo(string archivo) {
     ifstream archivoCatalogo(archivo);
 
     if (!archivoCatalogo.is_open()) {
-        cout << "No se pudo abrir " << archivo << "." << endl;
-        return;
+        throw runtime_error("No se pudo abrir Catalogo.txt");
     }
 
     string linea;
@@ -67,6 +66,7 @@ void Catalogo::cargarArchivo(string archivo) {
     }
 
     archivoCatalogo.close();
+    cout << "-----Catalogo Cargado con Exito!-----" << endl;
 }
 
 vector<Contenido*> Catalogo::buscar(string titulo) {
