@@ -5,7 +5,7 @@ Plataforma::Plataforma(string _nombre){
 }
 
 void Plataforma::cargarCatalogo(){
-    catalogo.cargarArchivo(archivo);
+    catalogo.cargarArchivo();
 }
 
 void Plataforma::agregarContenido(Contenido* c){
