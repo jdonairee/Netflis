@@ -12,9 +12,14 @@ using namespace std;
 int main() {
 
     Plataforma plataforma("Netflis");
-    plataforma.cargarCatalogo("Catalogo.txt");
-
-    cout << "-----Catalogo Cargado con Exito!-----" << endl;
+    try{
+        plataforma.cargarCatalogo("Catalogo.txt");
+        plataforma.mostrarCatalogo();
+    }
+    catch(exception& e){
+        cout << "Error: " << e.what() << endl;
+    }
+    
     cout << "Duracion total del catalogo: " << plataforma.calcularDuracionTotal() << " minutos" << endl;
     cout << endl;
 
