@@ -68,3 +68,14 @@ void Serie::quitarLike() {
     cout << "Quitaste el like de " << titulo << "." << endl;
 }
 
+void Serie::agregarEpisodioATemporada(int numeroTemporada, Episodio* episodio){
+    for(int i = 0; i < temporadas.size(); i++){
+        if(temporadas[i].getNumero() == numeroTemporada){
+            temporadas[i].agregarEpisodio(episodio);
+            return;
+        }
+    }
+    Temporada nueva(numeroTemporada);
+    nueva.agregarEpisodio(episodio);
+    temporadas.push_back(nueva);
+}

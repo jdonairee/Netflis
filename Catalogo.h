@@ -5,6 +5,7 @@
 #include <string>
 
 #include "Contenido.h"
+#include "Serie.h"
 
 using namespace std;
 
@@ -15,7 +16,7 @@ private:
 public:
     Catalogo();
 
-    void cargarArchivo(string archivo);
+    void cargarArchivo();
 
     vector<Contenido*> buscar(string titulo);
     double calcularDuracionTotal();
