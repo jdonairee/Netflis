@@ -46,7 +46,15 @@ int main() {
     
     Cuenta cuentaAdulto("Lionel", "Adulto");
     Cuenta cuentaKid("Gilberto", "Kid");
-
+    plataforma.agregarCuenta(cuentaAdulto);
+    plataforma.agregarCuenta(cuentaKid);
+//except
+    try{
+        Cuenta encontrada = plataforma.buscarCuenta("Lionel");
+        cout<<"Cuenta Encontrada: "<<encontrada.getNombre()<<endl;
+    } catch(runtime_error& e){
+        cout<<"User not Found: Usuario no Encontrado: "<<e.what()<<endl;
+    }
     
     vector<Contenido*> resultadosToyStory = plataforma.buscar("Toy Story");
     Contenido* toyStory = resultadosToyStory.empty() ? nullptr : resultadosToyStory[0];
