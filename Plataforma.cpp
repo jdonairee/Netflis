@@ -8,6 +8,10 @@ void Plataforma::cargarCatalogo(string archivo){
     catalogo.cargarArchivo(archivo);
 }
 
+vector<Contenido*> Plataforma::buscar(string titulo){
+    return catalogo.buscar(titulo);
+}
+
 void Plataforma::agregarContenido(Contenido* c){
     catalogo.agregarContenido(c);
 }
@@ -23,4 +27,12 @@ void Plataforma::mostrarCatalogo(){
 
 double Plataforma::calcularDuracionTotal(){
     return catalogo.calcularDuracionTotal();
+}
+
+void Plataforma::agregarCuenta(Cuenta c){
+    gestor.agregarCuenta(c);
+}
+
+Cuenta Plataforma::buscarCuenta(string nombre){
+    return gestor.buscarCuenta(nombre);
 }

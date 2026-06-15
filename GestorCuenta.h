@@ -2,6 +2,7 @@
 #define GESTORCUENTA_H
 #include <iostream>
 #include <vector>
+#include <stdexcept>
 #include "Cuenta.h"
 using namespace std;
 class GestorCuenta{

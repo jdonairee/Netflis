@@ -12,17 +12,17 @@ using namespace std;
 Catalogo::Catalogo() {
 }
 
-void Catalogo::cargarArchivo() {
-    ifstream archivo("Catalogo.txt");
+void Catalogo::cargarArchivo(string archivo) {
+    ifstream archivoCatalogo(archivo);
 
-    if (!archivo.is_open()) {
-        cout << "No se pudo abrir Catalogo.txt." << endl;
+    if (!archivoCatalogo.is_open()) {
+        cout << "No se pudo abrir " << archivo << "." << endl;
         return;
     }
 
     string linea;
 
-    while (getline(archivo, linea)) {
+    while (getline(archivoCatalogo, linea)) {
         stringstream ss(linea);
 
         string tipo;
@@ -66,18 +66,16 @@ void Catalogo::cargarArchivo() {
         }
     }
 
-    archivo.close();
+    archivoCatalogo.close();
 }
 
 vector<Contenido*> Catalogo::buscar(string titulo) {
     vector<Contenido*> encontrados;
-
     for (Contenido* c : contenidos) {
         if (c->getTitulo() == titulo) {
             encontrados.push_back(c);
         }
     }
-
     return encontrados;
 }
 

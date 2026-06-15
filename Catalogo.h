@@ -15,7 +15,7 @@ private:
 public:
     Catalogo();
 
-    void cargarArchivo();
+    void cargarArchivo(string archivo);
 
     vector<Contenido*> buscar(string titulo);
     double calcularDuracionTotal();

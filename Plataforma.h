@@ -16,9 +16,12 @@ public:
     Plataforma(string _nombre);
 
     void cargarCatalogo(string archivo);
+    vector<Contenido*> buscar(string titulo);
     void agregarContenido(Contenido* c);
     void eliminarContenido(Contenido* c);
     void mostrarCatalogo();
     double calcularDuracionTotal();
+    void agregarCuenta(Cuenta c);
+    Cuenta buscarCuenta(string nombre);
 };
 #endif
