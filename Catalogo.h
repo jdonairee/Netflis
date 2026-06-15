@@ -17,6 +17,8 @@ public:
     Catalogo();
 
     void cargarArchivo();
+    void cargarEpisodios();
+    Serie* buscarSeriePorID(int id);
 
     vector<Contenido*> buscar(string titulo);
     double calcularDuracionTotal();
