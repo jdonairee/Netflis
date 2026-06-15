@@ -93,14 +93,14 @@ int main() {
     cout << endl;
 
     
-    cout << "===== DURACION TOTAL ACTUALIZADA =====" << endl;
+    cout << "-----Duracion Total Actualizada-----" << endl;
     cout << "Duracion total del catalogo: " << plataforma.calcularDuracionTotal() << " minutos" << endl;
     cout << endl;
 
     
     plataforma.eliminarContenido(serieNueva);
 
-    cout << "===== DURACION TOTAL TRAS ELIMINAR LA SERIE =====" << endl;
+    cout << "-----Duracion Total Despues de Eliminar-----" << endl;
     cout << "Duracion total del catalogo: " << plataforma.calcularDuracionTotal() << " minutos" << endl;
 
     return 0;
