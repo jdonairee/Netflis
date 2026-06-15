@@ -4,8 +4,8 @@ Plataforma::Plataforma(string _nombre){
     nombre = _nombre;
 }
 
-void Plataforma::cargarCatalogo(){
-    catalogo.cargarArchivo();
+void Plataforma::cargarCatalogo(string archivo){
+    catalogo.cargarArchivo(archivo);
 }
 
 vector<Contenido*> Plataforma::buscar(string titulo){
