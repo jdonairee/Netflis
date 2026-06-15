@@ -15,6 +15,7 @@ private:
 public:
     Plataforma(string _nombre);
 
+    void cargarCatalogo(string archivo);
     void agregarContenido(Contenido* c);
     void eliminarContenido(Contenido* c);
     void mostrarCatalogo();
