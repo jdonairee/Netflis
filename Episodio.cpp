@@ -8,3 +8,6 @@ Episodio::Episodio(string _titulo, double _duracion){
 double Episodio::calcularDuracion(){
     return duracion;
 }
+string Episodio::getTitulo(){
+    return titulo;
+}

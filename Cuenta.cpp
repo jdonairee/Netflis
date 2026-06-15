@@ -60,3 +60,6 @@ void Cuenta::verLikes(){
         cout << c->getTitulo() << endl;
     }
 }
+string Cuenta::getNombre(){
+    return nombre;
+}

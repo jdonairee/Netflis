@@ -22,5 +22,7 @@ public:
 
     void verMiLista();
     void verLikes();
+
+    string getNombre();
 };
 #endif

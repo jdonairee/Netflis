@@ -9,11 +9,12 @@ private:
     int numero;
     vector<Episodio> episodios;
 public:
-    Temporada(int numero);
+    Temporada(int _numero);
     double calcularDuracion();
     void agregarEpisodio(Episodio e);
     void eliminarEpisodio(Episodio e);
     vector<Episodio> verEpisodios();
+    int getNumero();
     
 };
 

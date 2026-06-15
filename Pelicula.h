@@ -8,10 +8,14 @@ using namespace std;
 class Pelicula: public Contenido, public ILikeable, public IListable{
 private:
     string director;
+    int likes;
 public: 
-    Pelicula(string titulo, string genero, int anio, string clasificacion, double duracion, string director);
+    Pelicula(int _id,string titulo, string genero, int anio, string clasificacion, double duracion, string director);
     void mostrarInfo();
     double calcularDuracion();
-
+    void darLike();
+    void quitarLike();
+    void agregarALista();
+    void quitarDeLista();
 };
 #endif
