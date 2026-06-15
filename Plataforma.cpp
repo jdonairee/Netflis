@@ -4,6 +4,10 @@ Plataforma::Plataforma(string _nombre){
     nombre = _nombre;
 }
 
+void Plataforma::cargarCatalogo(string archivo){
+    catalogo.cargarArchivo(archivo);
+}
+
 void Plataforma::agregarContenido(Contenido* c){
     catalogo.agregarContenido(c);
 }
