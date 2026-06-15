@@ -7,13 +7,13 @@ using namespace std;
 class Temporada:public Episodio{
 private:
     int numero;
-    vector<Episodio> episodios;
+    vector<Episodio*> episodios;
 public:
     Temporada(int _numero);
     double calcularDuracion();
-    void agregarEpisodio(Episodio e);
-    void eliminarEpisodio(Episodio e);
-    vector<Episodio> verEpisodios();
+    void agregarEpisodio(Episodio* e);
+    void eliminarEpisodio(Episodio* e);
+    vector<Episodio*> verEpisodios();
     int getNumero();
     
 };

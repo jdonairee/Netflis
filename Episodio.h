@@ -11,6 +11,7 @@ private:
     double duracion;
 
 public: 
+    Episodio();
     Episodio(string _titulo, double _duracion);
     double calcularDuracion();
     string getTitulo();
