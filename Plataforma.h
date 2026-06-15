@@ -1,6 +1,7 @@
 #ifndef PLATAFORMA_H
 #define PLATAFORMA_H
 #include <iostream>
+#include <vector>
 #include <string>
 #include "Catalogo.h"
 #include "GestorCuenta.h"
@@ -14,7 +15,6 @@ private:
     GestorCuenta gestor;
 public:
     Plataforma(string _nombre);
-
     void cargarCatalogo(string archivo);
     vector<Contenido*> buscar(string titulo);
     void agregarContenido(Contenido* c);
