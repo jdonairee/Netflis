@@ -15,14 +15,16 @@ private:
 public:
     Catalogo();
 
+    void cargarArchivo();
+
     vector<Contenido*> buscar(string titulo);
     double calcularDuracionTotal();
 
     void agregarContenido(Contenido* c);
     void eliminarContenido(Contenido* c);
 
-    Catalogo operator+(Contenido* c);
-    Catalogo operator-(Contenido* c);
+    Catalogo& operator+(Contenido* c);
+    Catalogo& operator-(Contenido* c);
 
     void mostrarCatalogo();
 
