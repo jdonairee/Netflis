@@ -34,7 +34,7 @@ int main() {
 
     plataforma.agregarContenido(serieNueva);
 
-    cout << "-----Se Agrego una Serie Nueva!" << endl;
+    cout << "-----Se Agrego una Serie Nueva!-----" << endl;
     serieNueva->mostrarInfo();
     cout << endl;
 

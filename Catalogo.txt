@@ -16,6 +16,7 @@ SERIE|15|Loki|Ciencia ficcion|2021|B|0|Michael Waldron
 SERIE|16|Daredevil|Accion|2015|C|0|Drew Goddard
 SERIE|17|The Office|Comedia|2005|B|0|Greg Daniels
 SERIE|18|Friends|Comedia|1994|B|0|David Crane
+SERIE|21|One Piece|Aventura|1999|B15|0|Eiichiro Oda
 SERIE|19|Malcolm el de en Medio|Comedia|2000|B|0|Linwood Boomer
 SERIE|20|Avatar La Leyenda de Aang|Animacion|2005|A|0|Michael Dante DiMartino
 PELICULA|21|Interestelar|Ciencia ficcion|2014|B|169|Christopher Nolan
@@ -71,3 +72,4 @@ PELICULA|70|Harry Potter y la Orden del Fenix|Fantasia|2007|B|138|David Yates
 PELICULA|71|Harry Potter y el Misterio del Principe|Fantasia|2009|B|153|David Yates
 PELICULA|72|Harry Potter y las Reliquias de la Muerte Parte 1|Fantasia|2010|B|146|David Yates
 PELICULA|73|Harry Potter y las Reliquias de la Muerte Parte 2|Fantasia|2011|B|130|David Yates
+
