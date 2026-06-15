@@ -30,5 +30,7 @@ public:
 
     void darLike();
     void quitarLike();
+
+    void agregarEpisodioATemporada(int numeroTemporada, Episodio* episodio);
 };
 #endif
