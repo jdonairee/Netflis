@@ -39,8 +39,8 @@ int main() {
     cout << endl;
 
     
-    Cuenta cuentaAdulto("Lionel", "Cris");
-    Cuenta cuentaKid("Gilberto", "Pau");
+    Cuenta cuentaAdulto("Lionel", "Adulto");
+    Cuenta cuentaKid("Gilberto", "Kid");
 
     
     vector<Contenido*> resultadosToyStory = plataforma.buscar("Toy Story");
