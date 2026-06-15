@@ -8,15 +8,15 @@ Cuenta::Cuenta(string _nombre, string _tipo){
 }
 
 void Cuenta::agregarAListaPersonal(Contenido* c){
-    if(puedeVer(c)){
+    if(!puedeVer(c)){
+        throw logic_error("Contenido restringido para esta cuenta");
+    }else{
         if(IListable* listable = dynamic_cast<IListable*>(c)){
             miLista.push_back(c);
             listable->agregarALista();
         } else {
             cout << "Este contenido no se puede agregar a Mi Lista." << endl;
         }
-    } else {
-        cout << "No puedes agregar este contenido por la clasificación." << endl;
     }
 }
 
