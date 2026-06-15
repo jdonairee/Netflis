@@ -12,8 +12,8 @@ using namespace std;
 Catalogo::Catalogo() {
 }
 
-void Catalogo::cargarArchivo(string archivo) {
-    ifstream archivoCatalogo(archivo);
+void Catalogo::cargarArchivo() {
+    ifstream archivoCatalogo("Catalogo.txt");
 
     if (!archivoCatalogo.is_open()) {
         throw runtime_error("No se pudo abrir Catalogo.txt");
@@ -124,6 +124,56 @@ Catalogo::~Catalogo() {
     for (Contenido* c : contenidos) {
         delete c;
     }
-
     contenidos.clear();
+}
+
+Serie* Catalogo::buscarSeriePorID(int id){
+    for(Contenido* c : contenidos){
+        if(c->getId() == id){
+            Serie* s = dynamic_cast<Serie*>(c);
+            if(s != nullptr){
+                return s;
+            }
+        }
+    }
+    return nullptr;
+}
+
+void Catalogo::cargarEpisodios(){
+    ifstream archivo("Episodios.txt");
+
+    if(!archivo.is_open()){
+        throw runtime_error("No se pudo abrir Episodios.txt");
+    }
+
+    string linea;
+
+    while(getline(archivo, linea)){
+        stringstream ss(linea);
+
+        string idSerieStr;
+        string numTempStr;
+        string tituloEp;
+        string duracionStr;
+
+        getline(ss, idSerieStr, '|');
+        getline(ss, numTempStr, '|');
+        getline(ss, tituloEp, '|');
+        getline(ss, duracionStr, '|');
+
+        int idSerie = stoi(idSerieStr);
+        int numTemp = stoi(numTempStr);
+        double duracion = stod(duracionStr);
+
+        Serie* serie = buscarSeriePorID(idSerie);
+
+        if(serie != nullptr){
+            serie->agregarEpisodioATemporada(
+                numTemp,
+                new Episodio(tituloEp, duracion)
+            );
+        }
+    }
+
+    archivo.close();
 }
