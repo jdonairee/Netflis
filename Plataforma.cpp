@@ -4,7 +4,7 @@ Plataforma::Plataforma(string _nombre){
     nombre = _nombre;
 }
 
-void Plataforma::cargarCatalogo(string archivo){
+void Plataforma::cargarCatalogo(){
     catalogo.cargarArchivo(archivo);
 }
 
