@@ -15,7 +15,7 @@ private:
     GestorCuenta gestor;
 public:
     Plataforma(string _nombre);
-    void cargarCatalogo(string archivo);
+    void cargarCatalogo();
     vector<Contenido*> buscar(string titulo);
     void agregarContenido(Contenido* c);
     void eliminarContenido(Contenido* c);

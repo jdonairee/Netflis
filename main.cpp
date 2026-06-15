@@ -13,7 +13,7 @@ int main() {
 
     Plataforma plataforma("Netflis");
     try{
-        plataforma.cargarCatalogo("Catalogo.txt");
+        plataforma.cargarCatalogo();
         plataforma.mostrarCatalogo();
     }
     catch(exception& e){
