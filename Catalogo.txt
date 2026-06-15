@@ -1,75 +1,64 @@
 SERIE|1|Breaking Bad|Drama|2008|B15|0|Vince Gilligan
-SERIE|2|Better Call Saul|Drama|2015|B15|0|Vince Gilligan
-SERIE|3|Dark|Ciencia ficcion|2017|B15|0|Baran bo Odar
-SERIE|4|Stranger Things|Ciencia ficcion|2016|B15|0|Hermanos Duffer
-SERIE|5|The Last of Us|Drama|2023|C|0|Craig Mazin
-SERIE|6|The Boys|Accion|2019|C|0|Eric Kripke
-SERIE|7|The Walking Dead|Terror|2010|C|0|Frank Darabont
-SERIE|8|Game of Thrones|Fantasia|2011|C|0|David Benioff
-SERIE|9|House of the Dragon|Fantasia|2022|C|0|Ryan Condal
-SERIE|10|Peaky Blinders|Drama|2013|C|0|Steven Knight
-SERIE|11|Sherlock|Misterio|2010|B15|0|Steven Moffat
-SERIE|12|Lost|Misterio|2004|B15|0|J J Abrams
-SERIE|13|The Mandalorian|Ciencia ficcion|2019|B|0|Jon Favreau
-SERIE|14|Andor|Ciencia ficcion|2022|B15|0|Tony Gilroy
-SERIE|15|Loki|Ciencia ficcion|2021|B|0|Michael Waldron
-SERIE|16|Daredevil|Accion|2015|C|0|Drew Goddard
-SERIE|17|The Office|Comedia|2005|B|0|Greg Daniels
-SERIE|18|Friends|Comedia|1994|B|0|David Crane
-SERIE|21|One Piece|Aventura|1999|B15|0|Eiichiro Oda
-SERIE|19|Malcolm el de en Medio|Comedia|2000|B|0|Linwood Boomer
-SERIE|20|Avatar La Leyenda de Aang|Animacion|2005|A|0|Michael Dante DiMartino
-PELICULA|21|Interestelar|Ciencia ficcion|2014|B|169|Christopher Nolan
-PELICULA|22|El Caballero de la Noche|Accion|2008|B15|152|Christopher Nolan
-PELICULA|23|Inception|Ciencia ficcion|2010|B15|148|Christopher Nolan
-PELICULA|24|Dunkerque|Belica|2017|B|106|Christopher Nolan
-PELICULA|25|Oppenheimer|Drama|2023|B15|180|Christopher Nolan
-PELICULA|26|Spider Man No Way Home|Accion|2021|B|148|Jon Watts
-PELICULA|27|Avengers Endgame|Accion|2019|B|181|Hermanos Russo
-PELICULA|28|Iron Man|Accion|2008|B|126|Jon Favreau
-PELICULA|29|Capitan America Civil War|Accion|2016|B|147|Hermanos Russo
-PELICULA|30|Guardianes de la Galaxia|Accion|2014|B|121|James Gunn
-PELICULA|31|The Batman|Accion|2022|B15|176|Matt Reeves
-PELICULA|32|Joker|Drama|2019|C|122|Todd Phillips
-PELICULA|33|Superman|Accion|1978|A|143|Richard Donner
-PELICULA|34|Man of Steel|Accion|2013|B|143|Zack Snyder
-PELICULA|35|Toy Story|Animacion|1995|A|81|John Lasseter
-PELICULA|36|Coco|Animacion|2017|A|105|Lee Unkrich
-PELICULA|37|Shrek|Animacion|2001|A|90|Andrew Adamson
-PELICULA|38|El Padrino|Drama|1972|B15|175|Francis Ford Coppola
-PELICULA|39|Gladiador|Accion|2000|B15|155|Ridley Scott
-PELICULA|40|Jurassic Park|Aventura|1993|B|127|Steven Spielberg
-PELICULA|41|Titanic|Romance|1997|B|195|James Cameron
-PELICULA|42|Avatar|Ciencia ficcion|2009|B|162|James Cameron
-PELICULA|43|Forrest Gump|Drama|1994|B|142|Robert Zemeckis
-PELICULA|44|Matrix|Ciencia ficcion|1999|B15|136|Lana Wachowski
-PELICULA|45|Star Wars Una Nueva Esperanza|Ciencia ficcion|1977|A|121|George Lucas
-PELICULA|46|Star Wars El Imperio Contraataca|Ciencia ficcion|1980|A|124|Irvin Kershner
-PELICULA|47|Star Wars La Venganza de los Sith|Ciencia ficcion|2005|B|140|George Lucas
-PELICULA|48|El Senor de los Anillos La Comunidad del Anillo|Fantasia|2001|B|178|Peter Jackson
-PELICULA|49|El Senor de los Anillos Las Dos Torres|Fantasia|2002|B|179|Peter Jackson
-PELICULA|50|El Senor de los Anillos El Retorno del Rey|Fantasia|2003|B|201|Peter Jackson
-EVENTO|51|Final Champions League|Deportes|2026|A|120|En vivo
-EVENTO|52|Super Bowl|Deportes|2026|A|180|En vivo
-EVENTO|53|Final Mundial|Deportes|2026|A|120|En vivo
-EVENTO|54|Partido Mexico vs Argentina|Deportes|2026|A|100|En vivo
-EVENTO|55|Partido Mexico vs Brasil|Deportes|2026|A|100|En vivo
-EVENTO|56|Gran Premio Formula 1|Deportes|2026|A|120|En vivo
-EVENTO|57|UFC Evento Principal|Deportes|2026|C|180|En vivo
-EVENTO|58|Concierto Luis Miguel|Musica|2026|A|120|En vivo
-EVENTO|59|Concierto Travis Scott|Musica|2026|B15|100|En vivo
-EVENTO|60|Premios Oscar|Entretenimiento|2026|B|180|En vivo
-EVENTO|61|Comic Con Panel|Entretenimiento|2026|A|90|En vivo
-EVENTO|62|E3 Showcase|Videojuegos|2026|A|90|En vivo
-EVENTO|63|The Game Awards|Videojuegos|2026|B|150|En vivo
-EVENTO|64|Final NBA|Deportes|2026|A|150|En vivo
-EVENTO|65|Final Copa Libertadores|Deportes|2026|A|120|En vivo
-PELICULA|66|Harry Potter y la Piedra Filosofal|Fantasia|2001|A|152|Chris Columbus
-PELICULA|67|Harry Potter y la Camara Secreta|Fantasia|2002|A|161|Chris Columbus
-PELICULA|68|Harry Potter y el Prisionero de Azkaban|Fantasia|2004|A|142|Alfonso Cuaron
-PELICULA|69|Harry Potter y el Caliz de Fuego|Fantasia|2005|B|157|Mike Newell
-PELICULA|70|Harry Potter y la Orden del Fenix|Fantasia|2007|B|138|David Yates
-PELICULA|71|Harry Potter y el Misterio del Principe|Fantasia|2009|B|153|David Yates
-PELICULA|72|Harry Potter y las Reliquias de la Muerte Parte 1|Fantasia|2010|B|146|David Yates
-PELICULA|73|Harry Potter y las Reliquias de la Muerte Parte 2|Fantasia|2011|B|130|David Yates
+SERIE|2|Dark|Ciencia ficcion|2017|B15|0|Baran bo Odar
+SERIE|3|Stranger Things|Ciencia ficcion|2016|B15|0|Hermanos Duffer
+SERIE|4|The Last of Us|Drama|2023|C|0|Craig Mazin
+SERIE|5|The Boys|Accion|2019|C|0|Eric Kripke
+SERIE|6|The Walking Dead|Terror|2010|C|0|Frank Darabont
+SERIE|7|Game of Thrones|Fantasia|2011|C|0|David Benioff
+SERIE|8|The Mandalorian|Ciencia ficcion|2019|B|0|Jon Favreau
+SERIE|9|Malcolm el de en Medio|Comedia|2000|B|0|Linwood Boomer
+SERIE|10|Avatar La Leyenda de Aang|Animacion|2005|A|0|Michael Dante DiMartino
+PELICULA|11|Interestelar|Ciencia ficcion|2014|B|169|Christopher Nolan
+PELICULA|12|El Caballero de la Noche|Accion|2008|B15|152|Christopher Nolan
+PELICULA|13|Inception|Ciencia ficcion|2010|B15|148|Christopher Nolan
+PELICULA|14|Dunkerque|Belica|2017|B|106|Christopher Nolan
+PELICULA|15|Oppenheimer|Drama|2023|B15|180|Christopher Nolan
+PELICULA|16|Spider Man No Way Home|Accion|2021|B|148|Jon Watts
+PELICULA|17|Avengers Endgame|Accion|2019|B|181|Hermanos Russo
+PELICULA|18|Iron Man|Accion|2008|B|126|Jon Favreau
+PELICULA|19|Capitan America Civil War|Accion|2016|B|147|Hermanos Russo
+PELICULA|20|Guardianes de la Galaxia|Accion|2014|B|121|James Gunn
+PELICULA|21|The Batman|Accion|2022|B15|176|Matt Reeves
+PELICULA|22|Joker|Drama|2019|C|122|Todd Phillips
+PELICULA|23|Superman|Accion|1978|A|143|Richard Donner
+PELICULA|24|Man of Steel|Accion|2013|B|143|Zack Snyder
+PELICULA|25|Toy Story|Animacion|1995|A|81|John Lasseter
+PELICULA|26|Coco|Animacion|2017|A|105|Lee Unkrich
+PELICULA|27|Shrek|Animacion|2001|A|90|Andrew Adamson
+PELICULA|28|El Padrino|Drama|1972|B15|175|Francis Ford Coppola
+PELICULA|29|Gladiador|Accion|2000|B15|155|Ridley Scott
+PELICULA|30|Jurassic Park|Aventura|1993|B|127|Steven Spielberg
+PELICULA|31|Titanic|Romance|1997|B|195|James Cameron
+PELICULA|32|Avatar|Ciencia ficcion|2009|B|162|James Cameron
+PELICULA|33|Forrest Gump|Drama|1994|B|142|Robert Zemeckis
+PELICULA|34|Matrix|Ciencia ficcion|1999|B15|136|Lana Wachowski
+PELICULA|35|Star Wars Una Nueva Esperanza|Ciencia ficcion|1977|A|121|George Lucas
+PELICULA|36|Star Wars El Imperio Contraataca|Ciencia ficcion|1980|A|124|Irvin Kershner
+PELICULA|37|Star Wars La Venganza de los Sith|Ciencia ficcion|2005|B|140|George Lucas
+PELICULA|38|El Senor de los Anillos La Comunidad del Anillo|Fantasia|2001|B|178|Peter Jackson
+PELICULA|39|El Senor de los Anillos Las Dos Torres|Fantasia|2002|B|179|Peter Jackson
+PELICULA|40|El Senor de los Anillos El Retorno del Rey|Fantasia|2003|B|201|Peter Jackson
+EVENTO|41|Final Champions League|Deportes|2026|A|120|En vivo
+EVENTO|42|Super Bowl|Deportes|2026|A|180|En vivo
+EVENTO|43|Final Mundial|Deportes|2026|A|120|En vivo
+EVENTO|44|Partido Mexico vs Argentina|Deportes|2026|A|100|En vivo
+EVENTO|45|Partido Mexico vs Brasil|Deportes|2026|A|100|En vivo
+EVENTO|46|Gran Premio Formula 1|Deportes|2026|A|120|En vivo
+EVENTO|47|UFC Evento Principal|Deportes|2026|C|180|En vivo
+EVENTO|48|Concierto Luis Miguel|Musica|2026|A|120|En vivo
+EVENTO|49|Concierto Travis Scott|Musica|2026|B15|100|En vivo
+EVENTO|50|Premios Oscar|Entretenimiento|2026|B|180|En vivo
+EVENTO|51|Comic Con Panel|Entretenimiento|2026|A|90|En vivo
+EVENTO|52|E3 Showcase|Videojuegos|2026|A|90|En vivo
+EVENTO|53|The Game Awards|Videojuegos|2026|B|150|En vivo
+EVENTO|54|Final NBA|Deportes|2026|A|150|En vivo
+EVENTO|55|Final Copa Libertadores|Deportes|2026|A|120|En vivo
+PELICULA|56|Harry Potter y la Piedra Filosofal|Fantasia|2001|A|152|Chris Columbus
+PELICULA|57|Harry Potter y la Camara Secreta|Fantasia|2002|A|161|Chris Columbus
+PELICULA|58|Harry Potter y el Prisionero de Azkaban|Fantasia|2004|A|142|Alfonso Cuaron
+PELICULA|59|Harry Potter y el Caliz de Fuego|Fantasia|2005|B|157|Mike Newell
+PELICULA|60|Harry Potter y la Orden del Fenix|Fantasia|2007|B|138|David Yates
+PELICULA|61|Harry Potter y el Misterio del Principe|Fantasia|2009|B|153|David Yates
+PELICULA|62|Harry Potter y las Reliquias de la Muerte Parte 1|Fantasia|2010|B|146|David Yates
+PELICULA|63|Harry Potter y las Reliquias de la Muerte Parte 2|Fantasia|2011|B|130|David Yates
 
