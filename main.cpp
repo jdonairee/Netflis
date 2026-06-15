@@ -68,13 +68,17 @@ int main() {
     cout << endl;
 
     cout << "-----Cuentas de Niños-----" << endl;
-    if (toyStory != nullptr) {
-        cuentaKid.agregarAListaPersonal(toyStory); 
-        cuentaKid.darLikeContenido(toyStory);
-    }
-    if (joker != nullptr) {
-        cuentaKid.agregarAListaPersonal(joker); 
-        cuentaKid.darLikeContenido(joker);      
+    try{
+        if (toyStory != nullptr) {
+            cuentaKid.agregarAListaPersonal(toyStory); 
+            cuentaKid.darLikeContenido(toyStory);
+        }
+        if (joker != nullptr) {
+            cuentaKid.agregarAListaPersonal(joker); 
+            cuentaKid.darLikeContenido(joker);      
+        }
+    }catch(exception& e){
+        cout << "Error: " << e.what() << endl;
     }
     cuentaKid.verMiLista();
     cuentaKid.verLikes();
